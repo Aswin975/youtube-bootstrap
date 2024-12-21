@@ -1,0 +1,86 @@
+.content{
+  width: 100%;
+}
+
+
+.bi-list{
+    font-size: 35px;
+}
+
+.bi-search{
+    font-size: 25px;
+    align-items: center;
+    font-weight: bold;
+}
+
+.profile-img{
+   
+}
+
+.hr{
+    width: 200px;
+}
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    font-size: 20px;
+  }
+  
+
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  
+  .sidebar a.active {
+    background-color: #b7bbba;
+    color: white;
+  }
+  
+
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+
+  .recommends{
+    overflow-x: scroll;
+    background-color: rgb(70, 69, 69);
+    display: flex;
+    padding-left: 200px;
+    padding-top: 8px;
+    align-items: center;
+    /* border-top: 1px solid rgb(255, 255, 255 , 0.1) ; */
+    
+
+
+}
+  .recm-item{
+    margin: 12px 6px;
+    background-color: #373737;
+    padding: 6px 12px;
+    border: 1px solid  rgb(255, 255, 255 , 0.1) ;
+    border-radius: 16px;
+    white-space: nowrap;
+    cursor: pointer;
+    color: #fff;
+    transition: .5s;
+        
+
+}
+
+.container{
+
+    padding:  10px 17px 20px 140px ;
+    margin-bottom: 10px;
+    *
+}
